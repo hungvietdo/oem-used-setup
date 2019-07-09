@@ -23,7 +23,7 @@ Get into the container: `docker exec -it containerId /bin/bash`
 `- ssh-add id_rsa `
 
 Build project:
-`- cd /oem-used && php build.php`
+`- cd /oem-used && php build.php`. You may see an error of phpunit at the end of this run, we can ignore it for now.
 
 Run facade:
 `cd /oem-used/facade && node server.js`
