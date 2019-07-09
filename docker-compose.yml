@@ -1,0 +1,11 @@
+version: "2"
+services:
+    oem-used:
+        build:
+            context: .
+            dockerfile: "dockerfiles/oem-used.dockerfile"
+        volumes:
+            - "./projects/oem-used:/oem-used"
+        working_dir: "/oem-used"
+        ports:
+            - "80:80"
