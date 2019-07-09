@@ -1,7 +1,7 @@
 ### Instruction on how to setup OEM-USED site
 
 ##### Update your local hosts file (/etc/hosts)
-Add this: `www.bobcatused.com 127.0.0.1`
+Add this: `127.0.0.1 www.bobcatused.com` to your /etc/hosts
 
 Clone `git@github.com:traderinteractive/oem-used.git` to `projects/` folder
 
