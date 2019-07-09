@@ -9,8 +9,10 @@ copy your `id_rsa` to `secret/`
 
 ##### Build container
 `docker-compose build --no-cache oem-used`
+
 ##### Bring up the service
 `docker-compose up -d oem-used`
+
 ##### Setup from inside the container
 Get into the container: `docker exec -it containerId /bin/bash`
 
@@ -19,8 +21,10 @@ Get into the container: `docker exec -it containerId /bin/bash`
 `` - eval `ssh-agent -s` ``
 
 `- ssh-add rsa_id `
+
 Build project:
 `- cd /oem-used && php build.php`
+
 Run facade:
 `cd /oem-used/facade && node server.js`
 ##### Testing the site
