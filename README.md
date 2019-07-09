@@ -20,7 +20,7 @@ Get into the container: `docker exec -it containerId /bin/bash`
 
 `` - eval `ssh-agent -s` ``
 
-`- ssh-add rsa_id `
+`- ssh-add id_rsa `
 
 Build project:
 `- cd /oem-used && php build.php`
